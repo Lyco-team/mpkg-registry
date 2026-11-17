@@ -1,0 +1,14 @@
+{
+  "id": "sha256:2650e7e337c7aeef0ae6d798244eaf834043255be4af94ef7e5f49be0a54ce19",
+  "name": "pipewire-unselectable-audio-device-fix",
+  "version": "0.1.0",
+  "ok": true,
+  "replayed_at": "2026-11-17T13:34:15+0800",
+  "host_os": "Linux-6.18.60-2-cachyos-lts-x86_64-with-glibc2.44",
+  "python": "3.14.10",
+  "shell": "/bin/sh",
+  "steps": 8,
+  "verify": 8,
+  "host": "cachyos-x8664",
+  "notes": "回放环境：解包后的 dist 包体，cwd={{work}} 空目录；8 条 step 与 8 条 verify 全部退出码符合预期；plan/diagnose 走 tests/fixtures/cards.json 离线夹具，apply 走 tests/fake-pactl.py，全程未触碰真实声卡。"
+}
