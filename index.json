@@ -821,6 +821,18 @@
       "attestations": 0
     },
     {
+      "name": "horizon-client-no-sound-fix",
+      "version": "0.1.0",
+      "id": "sha256:141c435e1ba006a8c2847fd1e5ac62cf103015b482bd5065f8afd9adc6825f96",
+      "file": "packages/horizon-client-no-sound-fix-0.1.0-141c435e1ba0.mpkg",
+      "intent": "修复 Horizon（Minecraft 26.3 客户端）在 Linux / PipeWire 下启动后完全没有声音。根因是三条独立叠加：① options.txt 的 soundDevice 指向一块在 PipeWire 里建不出 sink 的声卡（例如 USB 适配器 profile 被持久化为无输出，WirePlumber 报 Failed to create ALSA node），客户端把音频输出到一个空端点；② soundCategory_music 为 0.0，BGM 本身静音；③ 音频流建立后 sink-input 处于 Mute: yes，sink 其实是对的（当前耳机）。脚本按 status/diagnose/fix/restore 工作：诊断只读、有问题是退出码 1；fix 先备份 options.txt，再把不再存在的 soundDevice 改回 default、把音乐音量改回 1.0（可 --keep-music 保留）、取消 Horizon 流的静音，最后复核；restore 从最近备份回滚。",
+      "tags": [],
+      "author": "agent:lilyco",
+      "size": 10156,
+      "published_at": "",
+      "attestations": 0
+    },
+    {
       "name": "lain42-stripe-online-payment",
       "version": "0.1.0",
       "id": "sha256:ced3f00b3177ea4fb4691b444e47c2bc2005972872ecc21806648cd1f2129054",
