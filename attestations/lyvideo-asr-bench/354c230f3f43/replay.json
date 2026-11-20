@@ -1,0 +1,11 @@
+{
+  "id": "sha256:354c230f3f43f449da27e37aae206c33b22de4cc55798ea919169c6ed92536f2",
+  "name": "lyvideo-asr-bench",
+  "ok": true,
+  "replayed_at": "2026-11-20T17:48:00+0800",
+  "host_os": "Linux-6.18.60-2-cachyos-lts-x86_64-with-glibc2.44",
+  "python": "3.14.10",
+  "shell": "/bin/zsh",
+  "steps": 4,
+  "verify": 4
+}

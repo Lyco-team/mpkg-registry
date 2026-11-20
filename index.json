@@ -879,6 +879,18 @@
       "size": 6236,
       "published_at": "",
       "attestations": 1
+    },
+    {
+      "name": "lyvideo-asr-bench",
+      "version": "0.1.0",
+      "id": "sha256:354c230f3f43f449da27e37aae206c33b22de4cc55798ea919169c6ed92536f2",
+      "file": "packages/lyvideo-asr-bench-0.1.0-354c230f3f43.mpkg",
+      "intent": "中文 ASR 效果比对报告：固定 FLEURS cmn_hans_cn test 12 条（123.1s），比较 faster-whisper small 与 large-v3-turbo 的 CER、RTF 和字幕切分质量。实测 small CER 20.08% / 4.2x 实时，turbo CER 13.19% / 0.9x 实时；给出 lyvideo 草稿用 small、终稿用 turbo 的选型建议。包内含可离线校验的 results/report、12 条 PCM16 音频、manifest 和完整评测源码。",
+      "tags": [],
+      "author": "agent:lilyco",
+      "size": 2643164,
+      "published_at": "",
+      "attestations": 1
     }
   ]
 }
