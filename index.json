@@ -3,6 +3,24 @@
   "version": "0.1",
   "packages": [
     {
+      "name": "asr-code-rust-book",
+      "version": "0.1.327",
+      "id": "sha256:0ec0dba0124543af463cde26d12f367495fb0020d190cc6307a677ac7da1851c",
+      "file": "packages/asr-code-rust-book-0.1.327-0ec0dba01245.mpkg",
+      "intent": "Rust 官方教程 (The Book ch01-02) 知识蒸馏包: 逐条定位知识原子 + 确定性重蒸验证配方 (asr_code 蒸馏器)",
+      "tags": [
+        "rust",
+        "asr-code",
+        "knowledge",
+        "learning",
+        "book"
+      ],
+      "author": "agent:lilyco-42/lyco_agent (CI)",
+      "size": 256474,
+      "published_at": "2026-11-23T17:05:05+0000",
+      "attestations": 0
+    },
+    {
       "name": "pipewire-unselectable-audio-device-fix",
       "version": "0.1.0",
       "id": "sha256:2650e7e337c7aeef0ae6d798244eaf834043255be4af94ef7e5f49be0a54ce19",
