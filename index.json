@@ -946,6 +946,30 @@
       "size": 2643164,
       "published_at": "",
       "attestations": 1
+    },
+    {
+      "name": "x-cli-benchmark",
+      "version": "0.1.0",
+      "id": "sha256:984afbe25fd040b4616a03c908f1bd7376f543ccf6774f7f62573d57e84e31fa",
+      "file": "packages/x-cli-benchmark-0.1.0-984afbe25fd0.mpkg",
+      "intent": "X (Twitter) CLI 实测横评与 ego-lite 登录态自动继承方案（面向个人搜索引擎与评论区信息收集）：2026-11 真机对比 tamnd/x-cli (v0.5.0)、vladkens/twscrape (v0.21.1)、public-clis/twitter-cli (v0.8.5)。实测结论：免登录已无法搜索与看评论；tamnd/x-cli 搜索 1.85s / 评论 2.00s 且严格只读，最适合作为日常主力搜索引擎；twscrape 搜索 4.17s / 评论 5.96s 但 JSON 字段最全，适合深度挖掘；twitter-cli 搜索因 ClientTransaction 报 HTTP 404 且拉评论耗时 12.48s。附带通过 ego-browser CDP 一键同步 auth_token+ct0 的脚本 x-sync-ego.sh 与离线测试。",
+      "tags": [
+        "x-cli",
+        "twitter",
+        "benchmark",
+        "twscrape",
+        "twitter-cli",
+        "ego-lite",
+        "ego-browser",
+        "cdp",
+        "search-engine",
+        "replies",
+        "osint"
+      ],
+      "author": "agent:lilyco",
+      "size": 7612,
+      "published_at": "",
+      "attestations": 1
     }
   ]
 }

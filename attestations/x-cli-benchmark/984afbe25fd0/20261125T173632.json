@@ -1,0 +1,64 @@
+{
+  "id": "sha256:984afbe25fd040b4616a03c908f1bd7376f543ccf6774f7f62573d57e84e31fa",
+  "ok": true,
+  "results": [
+    {
+      "step": 1,
+      "run": "bash -n <work>/pkg/artifacts/x-sync-ego.sh",
+      "exit": 0,
+      "want": 0,
+      "ok": true
+    },
+    {
+      "step": 2,
+      "run": "bash <work>/pkg/tests/run-tests.sh",
+      "exit": 0,
+      "want": 0,
+      "ok": true
+    },
+    {
+      "step": 3,
+      "run": "grep -q '1.85s' <work>/pkg/README.md",
+      "exit": 0,
+      "want": 0,
+      "ok": true
+    },
+    {
+      "step": 4,
+      "run": "grep -q 'Network.getAllCookies' <work>/pkg/artifacts/x-sync-ego.sh",
+      "exit": 0,
+      "want": 0,
+      "ok": true
+    },
+    {
+      "verify": 1,
+      "run": "test -f <work>/pkg/README.md",
+      "exit": 0,
+      "ok": true
+    },
+    {
+      "verify": 2,
+      "run": "test -f <work>/pkg/artifacts/report.json",
+      "exit": 0,
+      "ok": true
+    },
+    {
+      "verify": 3,
+      "run": "test -f <work>/pkg/artifacts/x-sync-ego.sh",
+      "exit": 0,
+      "ok": true
+    },
+    {
+      "verify": 4,
+      "run": "test -f <work>/pkg/atoms/benchmark-findings.md",
+      "exit": 0,
+      "ok": true
+    },
+    {
+      "verify": 5,
+      "run": "bash <work>/pkg/tests/run-tests.sh | tail -n 1 | grep -qx 'all tests passed'",
+      "exit": 0,
+      "ok": true
+    }
+  ]
+}
