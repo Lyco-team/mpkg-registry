@@ -948,6 +948,25 @@
       "attestations": 1
     },
     {
+      "name": "proxy-protocol-bench",
+      "version": "0.1.0",
+      "id": "sha256:82c3775d515dfc4b84f0a23fec972f6cb8fb95bd87c9e5f6bed2343f7bf8ea5f",
+      "file": "packages/proxy-protocol-bench-0.1.0-82c3775d515d.mpkg",
+      "intent": "对照实测洛杉矶 VPS 的主流和小众代理协议，检查 HTTPS 下载完成率、首包延迟与吞吐波动。附桌面 TUN 和首尔 VPS 的脱敏样本、算法、图表与复现脚本。",
+      "tags": [
+        "network",
+        "benchmark",
+        "proxy",
+        "sing-box",
+        "xray",
+        "mieru"
+      ],
+      "author": "lilyco-42",
+      "size": 210250,
+      "published_at": "",
+      "attestations": 0
+    },
+    {
       "name": "x-cli-benchmark",
       "version": "0.1.0",
       "id": "sha256:984afbe25fd040b4616a03c908f1bd7376f543ccf6774f7f62573d57e84e31fa",
