@@ -1,0 +1,13 @@
+{
+  "id": "sha256:3ed2011007a49be03797021f05eae7a2c0ca1d802ec9c69bc4706a10f2ccb1bd",
+  "name": "play-integrity-field-notes",
+  "version": "0.1.0",
+  "ok": true,
+  "replayed_at": "20261125T092957",
+  "host_os": "Linux-6.18.60-2-cachyos-lts-x86_64-with-glibc2.42",
+  "python": "3.14.10",
+  "shell": "/bin/sh (bash)",
+  "steps": 9,
+  "verify": 12,
+  "notes": "本机离线回放：假手机 fixture + bin 桩，不接触真机。71 条断言全绿。"
+}
