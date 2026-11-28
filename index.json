@@ -3,6 +3,33 @@
   "version": "0.1",
   "packages": [
     {
+      "name": "qq-nt-electron-refactor",
+      "version": "0.1.0",
+      "id": "sha256:aa18970c254e6e093465c43f64764ed9d9b04c3f42ff8cdd3a62f97c12c2d12d",
+      "file": "packages/qq-nt-electron-refactor-0.1.0-aa18970c254e.mpkg",
+      "intent": "InfoQ《QQ NT 全新重构》访谈蒸馏知识包：原文全文 + 6 个 What/Why/How 知识原子（为何重构/时间线/三大挑战/技术选型 Electron vs 原生 Qt Flutter Webview2/NT 内核架构/Electron 内存优化到 220M），含确定性可回放索引校验配方",
+      "tags": [
+        "qq",
+        "qq-nt",
+        "electron",
+        "refactor",
+        "cross-platform",
+        "desktop",
+        "native",
+        "qt",
+        "flutter",
+        "webview2",
+        "memory-optimization",
+        "knowledge",
+        "infoq",
+        "访谈"
+      ],
+      "author": "agent:lilyco",
+      "size": 11923,
+      "published_at": "2026-11-28T16:21:17+0800",
+      "attestations": 0
+    },
+    {
       "name": "play-integrity-field-notes",
       "version": "0.1.0",
       "id": "sha256:3ed2011007a49be03797021f05eae7a2c0ca1d802ec9c69bc4706a10f2ccb1bd",
