@@ -1,0 +1,11 @@
+{
+  "id": "sha256:aa18970c254e6e093465c43f64764ed9d9b04c3f42ff8cdd3a62f97c12c2d12d",
+  "name": "qq-nt-electron-refactor",
+  "ok": true,
+  "replayed_at": "2026-11-28T16:21:05+0800",
+  "host_os": "Linux-6.18.65-1-cachyos-lts-x86_64-with-glibc2.44",
+  "python": "3.14.10",
+  "shell": "/usr/bin/bash",
+  "steps": 3,
+  "verify": 4
+}
